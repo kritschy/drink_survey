@@ -1,0 +1,53 @@
+{% extends 'base.html'%}
+
+{% block head %}
+{% endblock %}
+
+{% block body %}
+ 
+ 
+<div class='content'>
+    <form class="w3-container w3-card-4" action="/" method="POST">
+        <h2>Wähle deine Favoriten.</h1>
+        <h3>Deine Vota werden absteigend von 3 bis 1 gewichtet.</h2>
+        <select id="first" name="first">
+            <option value="apple_juice">Apfelsaft</option>
+            <option value="hermann_cherry">Hermann Kirsch</option>
+            <option value="hermann_melon">Hermann Melone</option>
+            <option value="hermann_orange">Hermann Orange</option>
+            <option value="hermann_lemon">Hermann Zitrone</option>
+            <option value="lemonaid_lime">Lemonaid Limette</option>
+            <option value="premium_frohlunder">Frohlunder</option>
+            <option value="sauer_rhubarb">Rhabarber-Schorle</option>
+        </select>
+        <br><br>
+
+        <select id="second" name="second">
+            <option value="apple_juice">Apfelsaft</option>
+            <option value="hermann_cherry">Hermann Kirsch</option>
+            <option value="hermann_melon">Hermann Melone</option>
+            <option value="hermann_orange">Hermann Orange</option>
+            <option value="hermann_lemon">Hermann Zitrone</option>
+            <option value="lemonaid_lime">Lemonaid Limette</option>
+            <option value="premium_frohlunder">Frohlunder</option>
+            <option value="sauer_rhubarb">Rhabarber-Schorle</option>
+        </select>
+        <br><br>
+
+        <select id="third" name="third">
+            <option value="apple_juice">Apfelsaft</option>
+            <option value="hermann_cherry">Hermann Kirsch</option>
+            <option value="hermann_melon">Hermann Melone</option>
+            <option value="hermann_orange">Hermann Orange</option>
+            <option value="hermann_lemon">Hermann Zitrone</option>
+            <option value="lemonaid_lime">Lemonaid Limette</option>
+            <option value="premium_frohlunder">Frohlunder</option>
+            <option value="sauer_rhubarb">Rhabarber-Schorle</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Absenden">
+      </form>
+
+</div>
+{% endblock %}
