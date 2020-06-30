@@ -32,13 +32,6 @@ def index():
            updateSelection(results)
            return 'thanks'
 
-        # try:
-        #     db.session.add(commit_object)
-        #     db.session.commit()
-
-        #     return redirect('/')
-        # except: 
-        #     return 'failed'
     else:
 
         return render_template('index.html')
