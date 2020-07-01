@@ -16,7 +16,7 @@ class Results(db.Model):
      
 
 
-@app.route('/', methods=['POST', 'GET'])
+@app.route('/survey', methods=['POST', 'GET'])
 def index():
     results = []
     if request.method == 'POST':
